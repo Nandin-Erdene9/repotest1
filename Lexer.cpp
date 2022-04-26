@@ -84,14 +84,4 @@ public class Lexer {
     	}
     }
     
-    static public void main ( String[] argv ) {
-        Lexer lexer = new Lexer("newton.cpp");
-        String tok = lexer.next();
-        while (tok != "eof") {
-            System.out.println(tok.toString());
-            tok = lexer.next();
-        }
-        System.out.println(lexer.isCSyntax());
-    } 
-}
-
+ 
