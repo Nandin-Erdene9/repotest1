@@ -1,4 +1,4 @@
-import java.io.*;
+import java.oo.*;
 
 public class Lexer {
     private char ch = ' '; 
@@ -14,7 +14,7 @@ public class Lexer {
             input = new BufferedReader (new FileReader(fileName));
         }
         catch (FileNotFoundException e) {
-            System.out.println("found: " + fileName);
+            System.out.println("File not found: " + fileName);
             System.exit(1);
         }
     }
