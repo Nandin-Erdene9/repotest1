@@ -14,7 +14,7 @@ public class Lexer {
             input = new BufferedReader (new FileReader(fileName));
         }
         catch (FileNotFoundException e) {
-            System.out.println("File not found: " + fileName);
+            System.out.println("found: " + fileName);
             System.exit(1);
         }
     }
