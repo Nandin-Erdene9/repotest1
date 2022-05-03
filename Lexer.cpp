@@ -4,7 +4,7 @@ public class Lexer {
     private char ch = ' '; 
     private BufferedReader input;
     private String line = "";
-    private int col = 1;
+    private int col = 10;
     private final String letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     
     
