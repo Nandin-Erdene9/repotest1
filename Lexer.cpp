@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import java..*;
+=======
+import java.oo.*;
+>>>>>>> 686d52abc663674ed691fc4597b8d8bcac8527f6
 
 public class Lexer {
     private char ch = ' '; 
@@ -6,14 +10,17 @@ public class Lexer {
     private String line = "";
     private int col = 10;
     private final String letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    
+    private final char eolnCh = '\n';
+    private final char eofCh = '\004';
+
+    // hhhaHhhHHh
     
     public Lexer(String fileName) { 
         try {
             input = new BufferedReader (new FileReader(fileName));
         }
         catch (FileNotFoundException e) {
-            System.out.println("found: " + fileName);
+            System.out.println("File not found: " + fileName);
             System.exit(1);
         }
     }
@@ -77,7 +84,7 @@ public class Lexer {
     	//Салгасан токенуудыг int, main, (, ), {, } дараалалтай байгаа эсэхийг шалгах
     	//кодыг нөхөж бич
     	if(syntax) {
-    		return "СИ код мөн";
+    		return "dadaa";
     	} else {
     		return "СИ код биш";	
     	}
