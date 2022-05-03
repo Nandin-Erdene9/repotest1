@@ -4,7 +4,7 @@ import java..*;
 import java.oo.*;
 >>>>>>> 686d52abc663674ed691fc4597b8d8bcac8527f6
 
-public class Lexer {
+public class cl {
     private char ch = ' '; 
     private BufferedReader input;
     private String line = "";
