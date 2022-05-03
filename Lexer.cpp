@@ -6,8 +6,7 @@ public class Lexer {
     private String line = "";
     private int col = 1;
     private final String letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    private final char eolnCh = '\n';
-    private final char eofCh = '\004';
+    
     
     public Lexer(String fileName) { 
         try {
