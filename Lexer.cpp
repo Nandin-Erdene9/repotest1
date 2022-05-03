@@ -1,19 +1,13 @@
-<<<<<<< HEAD
-import java..*;
-=======
 import java.oo.*;
->>>>>>> 686d52abc663674ed691fc4597b8d8bcac8527f6
 
-public class Lexer {
+public class _lexer {
     private char ch = ' '; 
     private BufferedReader input;
     private String line = "";
-    private int col = 10;
+    private int col = 1;
     private final String letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     private final char eolnCh = '\n';
     private final char eofCh = '\004';
-
-    // hhhaHhhHHh
     
     public Lexer(String fileName) { 
         try {
